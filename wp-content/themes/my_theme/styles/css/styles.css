@@ -1,0 +1,133 @@
+/*header styles*/
+
+#page{
+    background-color: black;
+}
+
+.my-main-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.my-main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    align-items: center;
+    margin: 0;
+}
+
+.my-main-menu ul li{
+    list-style-type: none;
+}
+
+.my-main-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.my-main-menu .site-title{
+    font-weight: 500;
+}
+
+.my-main-menu .site-logo{
+    display: flex;
+    align-items: center;
+}
+
+.custom-logo{
+    height: 45px;
+}
+
+/*general styles*/
+
+body .relative-container{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+body .background-element{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content-container .elementor-element{
+    height: 100%;
+    width: 100%;
+}
+
+.elementor-widget-container h2{
+    font-size: 35px;
+}
+
+.elementor-widget-container h1{
+    font-size: 76px;
+}
+
+.post-title{
+    margin-top: 35px;
+    color: #66FCF1;
+    text-align: center;
+    font-size: 40px;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+@media screen and (max-width: 40em) {
+	.my-main-menu {
+		display:none;
+	}
+	
+    .slicknav_menu {
+		display: block;
+        background-color: black;
+	}
+
+    .slicknav_menu a{
+		display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 20px;
+        padding-top: 15px;
+	}
+
+    .slicknav_nav {
+		display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 0;
+	}
+
+    .slicknav_nav li{
+        list-style-type: none;
+    }
+
+    .slicknav_nav li a{
+        font-size: 17px;
+    }
+}
