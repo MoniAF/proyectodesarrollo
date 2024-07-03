@@ -1,0 +1,21 @@
+# WordPress exclusions
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup/
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/object-cache.php
+wp-content/plugins/
+wp-content/themes/twenty*/
+
+# General exclusions
+.DS_Store
+Thumbs.db
+sftp-config.json
+*.log
+*.sql
+*.sqlite
+*.zip
+*.tar.gz
